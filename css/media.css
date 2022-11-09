@@ -1,0 +1,139 @@
+@media(max-width:415px) {
+    .logo_block {
+        display: flex;
+        flex-direction: column;
+    }
+
+
+    .logo_block h1 {
+        font-family: 'Josefin Sans';
+        font-weight: 400;
+        font-size: 18px;
+        margin-top: 10px;
+    }
+
+    .menu {
+        display: none;
+    }
+
+    .section_q {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .question__card {
+        flex: 0 1 100%;
+        margin-top: 24px;
+
+    }
+
+    .apps {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .apps h2 {
+        font-family: 'Open Sans';
+
+        font-weight: 400;
+        font-size: 24px;
+    }
+
+    .video {
+        border-radius: 20px;
+        height: 100%;
+    }
+
+    .video__app {
+        height: 196px;
+    }
+
+    .play {
+        position: absolute;
+        top: 40%;
+        left: 44%;
+        width: 40px;
+        height: 40px;
+    }
+
+    .app_q {
+        display: none;
+    }
+
+    .about {
+        width: 90%;
+    }
+
+    .about h2 {
+        font-family: 'Open Sans';
+        margin-top: 57px;
+        font-weight: 400;
+        font-size: 24px;
+    }
+
+    .about__p {
+        font-family: 'Roboto';
+        font-weight: 400;
+        font-size: 15px;
+    }
+
+    .download h2 {
+        font-family: 'Open Sans';
+        font-weight: 400;
+        font-size: 24px;
+    }
+
+
+    #android img {
+        height: 100%;
+    }
+
+    .download__p {
+        font-family: 'Roboto';
+        font-weight: 400;
+        font-size: 15px
+    }
+
+    .socialmedia h2 {
+        font-family: 'Josefin Sans';
+
+        font-weight: 600;
+        font-size: 24px;
+    }
+
+    .socialmedia1 {
+        width: 40%;
+        margin: 0 auto;
+        margin-top: 44px;
+    }
+
+    .info {
+        flex-direction: column;
+    }
+
+    .contact h3 {
+        font-family: 'Open Sans';
+
+        font-weight: 400;
+        font-size: 18px;
+        margin: 0;
+
+    }
+
+    .contact p {
+        font-family: 'Open Sans';
+        font-weight: 400;
+        font-size: 10px;
+        margin-bottom: 15px;
+    }
+
+    #contact__p {
+        margin: 0;
+    }
+}
+
+@media(min-width:415px) {
+    .burger_menu {
+        display: none;
+    }
+}
